@@ -1,1 +1,3 @@
 # javascript
+
+This code explains about How to count number of occurrences of repeated file names in an array of document objects. initially we will create an empty output array called list. then using the forEach iterate the documents array. we will check if the list array contains any document object which contains the provided key’s value If not, then create a new document object and initialize the object with the key(the provided key name) set to value (the key’s value of the object of the present iteration) and occurrence set to value 1. If yes, then iterate the output array and search if the key of the present iteration is equal to the key of the input array iteration then increase the occurrence to 1. finally return the list as output with count and filename.
